@@ -4,18 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veiltail Marketing</title>
+    <title>Veiltail Marketing - 360° Solutions</title>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/rtl.css">
 </head>
 
 <body>
     <header class="header">
         <div class="container">
-            <a href="#" class="header__logo">
+            <a href="index.html" class="header__logo">
                 <img src="images/logo.png" alt="Veiltail Logo">
             </a>
             <nav class="header__nav">
@@ -24,13 +24,15 @@
                     <li><a href="about-us.html" data-i18n="nav_about">About</a></li>
                     <li><a href="our-work.html" data-i18n="nav_work">Our Work</a></li>
                     <li><a href="blog.html" data-i18n="nav_blog">Blog</a></li>
-                    <li><a href="strategy.html" data-i18n="nav_strategy">Strategy</a></li>
                     <li><a href="contact-us.html" data-i18n="nav_contact">Contact Us</a></li>
                 </ul>
             </nav>
             <div class="header__actions">
                 <a href="#" class="button button--ghost" id="lang-toggle" data-i18n="lang_toggle">العربية</a>
-                <a href="#" class="button button--primary" data-i18n="btn_get_touch">Get in Touch</a>
+                <a href="https://wa.me/201558050082" class="button button--primary" data-i18n="btn_get_touch">Get in Touch</a>
+            </div>
+            <div class="header__mobile-toggle">
+                <i class="fas fa-bars"></i>
             </div>
         </div>
     </header>
@@ -38,202 +40,189 @@
     <main>
         <section class="hero">
             <div class="container">
-                <div class="hero__text">
-                    <p class="hero__subtitle" data-i18n="hero_subtitle">DIGITAL PLATFORM</p>
-                    <h1 class="hero__title" data-i18n="hero_title">Engage your Audience with professionalism</h1>
-                    <p data-i18n="hero_desc">We don’t just follow trends ,we create them. At Veiltail, we speak your
-                        customer’s language, craft bold strategies, and deliver results that matter. Powered by
-                        creativity and driven by data, we turn ideas into real impact. Your brand deserves brilliance,
-                        and we’re here to make it happen.</p>
-                    <a href="#" class="button button--accent" data-i18n="btn_get_started">Get Started</a>
-                </div>
-                <div class="hero__image">
-                    <img src="images/banner-img.png" alt="Banner Image">
-                </div>
-            </div>
-        </section>
-
-        <section class="services">
-            <div class="container">
-                <div class="service">
-                    <img src="images/automation.png" alt="Social Media Icon">
-                    <h3 data-i18n="service_social">Social Media</h3>
-                    <p data-i18n="service_social_desc">Professional social media services that build your brand, boost
-                        engagement, and drive real, measurable results across all platforms.</p>
-                </div>
-                <div class="service">
-                    <img src="images/analytics.png" alt="Website Development Icon">
-                    <h3 data-i18n="service_web">Website Development</h3>
-                    <p data-i18n="service_web_desc">We build fast, responsive, and user-friendly websites designed to
-                        attract visitors, deliver a seamless user experience, and convert traffic into loyal customers.
-                    </p>
-                </div>
-                <div class="service">
-                    <img src="images/clous.png" alt="Media Production Icon">
-                    <h3 data-i18n="service_media">Media Production</h3>
-                    <p data-i18n="service_media_desc">We create Reels, Promos, and full-scale brand videos that do more
-                        than look good, they connect, inspire, and convert.</p>
-                </div>
-                <div class="service">
-                    <img src="images/secure.png" alt="Creative Campaigns Icon">
-                    <h3 data-i18n="service_campaigns">Creative Campaigns</h3>
-                    <p data-i18n="service_campaigns_desc">From concept to execution, we launch creative campaigns that
-                        trend, engage, and convert.</p>
+                <div class="hero__content">
+                    <div class="hero__text">
+                        <p class="subtitle" data-i18n="hero_subtitle">DIGITAL PLATFORM</p>
+                        <h1 class="hero__title" data-i18n="hero_title">Engage your Audience with professionalism</h1>
+                        <p class="hero__desc" data-i18n="hero_desc">We don’t just follow trends ,we create them. At Veiltail, we speak your customer’s language, craft bold strategies, and deliver results that matter. Powered by creativity and driven by data, we turn ideas into real impact. Your brand deserves brilliance, and we’re here to make it happen.</p>
+                        <div class="hero__btns">
+                            <a href="contact-us.html" class="button button--accent" data-i18n="btn_get_started">Get Started</a>
+                        </div>
+                    </div>
+                    <div class="hero__image">
+                        <img src="images/banner-img.png" alt="Veiltail Marketing">
+                        <div class="hero__floating p1"><img src="images/p1.png" alt="Float 1"></div>
+                        <div class="hero__floating p2"><img src="images/p2.png" alt="Float 2"></div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="features">
+        <section class="services-grid">
             <div class="container">
-                <div class="features__image">
-                    <img src="images/about-us-1.png" alt="About Us Image">
-                </div>
-                <div class="features__text">
-                    <p class="features__subtitle" data-i18n="features_subtitle">FEATURES</p>
-                    <h2 data-i18n="features_title">Delivering Marketing 360° Solutions</h2>
-                    <p data-i18n="features_desc">“We Move fast, Think Smart, and Create Bold, Results-Driven Marketing,
-                        Blending Strategy, Creativity, and Technology to Build Brands that Grow and Shine.”</p>
-                    <a href="#" class="button button--secondary" data-i18n="btn_learn_more">Learn More</a>
+                <div class="grid">
+                    <div class="service-card">
+                        <div class="icon"><img src="images/automation.png" alt="Social Media"></div>
+                        <h3 data-i18n="service_social">Social Media</h3>
+                        <p data-i18n="service_social_desc">Professional social media services that build your brand, boost engagement, and drive real, measurable results across all platforms.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon"><img src="images/analytics.png" alt="Website Development"></div>
+                        <h3 data-i18n="service_web">Website Development</h3>
+                        <p data-i18n="service_web_desc">We build fast, responsive, and user-friendly websites designed to attract visitors, deliver a seamless user experience, and convert traffic into loyal customers.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon"><img src="images/clous.png" alt="Media Production"></div>
+                        <h3 data-i18n="service_media">Media Production</h3>
+                        <p data-i18n="service_media_desc">We create Reels, Promos, and full-scale brand videos that do more than look good, they connect, inspire, and convert.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon"><img src="images/secure.png" alt="Creative Campaigns"></div>
+                        <h3 data-i18n="service_campaigns">Creative Campaigns</h3>
+                        <p data-i18n="service_campaigns_desc">From concept to execution, we launch creative campaigns that trend, engage, and convert.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="what-we-do">
+        <section class="about-feature">
             <div class="container">
-                <div class="what-we-do__header">
-                    <p class="what-we-do__subtitle" data-i18n="what_we_do_subtitle">WHAT WE DO</p>
+                <div class="feature__content">
+                    <div class="feature__image">
+                        <img src="images/about-us-1.png" alt="About Veiltail">
+                    </div>
+                    <div class="feature__text">
+                        <p class="subtitle" data-i18n="features_subtitle">FEATURES</p>
+                        <h2 data-i18n="features_title">Delivering Marketing 360° Solutions</h2>
+                        <p data-i18n="features_desc">“We Move fast, Think Smart, and Create Bold, Results-Driven Marketing, Blending Strategy, Creativity, and Technology to Build Brands that Grow and Shine.”</p>
+                        <a href="about-us.html" class="button button--secondary" data-i18n="btn_learn_more">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="industries">
+            <div class="container">
+                <div class="section-header">
+                    <p class="subtitle" data-i18n="what_we_do_subtitle">WHAT WE DO</p>
                     <h2 data-i18n="what_we_do_title">Industry-Focused Marketing 360°</h2>
                 </div>
-                <div class="what-we-do__grid">
-                    <div class="industry">
-                        <img src="images/couch.png" alt="Furniture & Interior Design Icon">
+                <div class="grid">
+                    <div class="industry-card">
+                        <div class="icon"><img src="images/couch.png" alt="Furniture"></div>
                         <h3 data-i18n="ind_furniture">Furniture & Interior Design</h3>
-                        <p data-i18n="ind_furniture_desc">We have extensive experience in the furniture sector, having
-                            worked with leading brands that have a strong presence and impact in the Egyptian market.
-                        </p>
+                        <p data-i18n="ind_furniture_desc">We have extensive experience in the furniture sector, having worked with leading brands that have a strong presence and impact in the Egyptian market.</p>
                     </div>
-                    <div class="industry">
-                        <img src="images/stethoscope.png" alt="Healthcare & Medical Icon">
+                    <div class="industry-card">
+                        <div class="icon"><img src="images/stethoscope.png" alt="Healthcare"></div>
                         <h3 data-i18n="ind_health">Healthcare & Medical</h3>
-                        <p data-i18n="ind_health_desc">We’ve developed trusted marketing strategies for clinics and
-                            health brands, creating content & Ads that builds credibility and attracts the right
-                            patients.</p>
+                        <p data-i18n="ind_health_desc">We’ve developed trusted marketing strategies for clinics and health brands, creating content & Ads that builds credibility and attracts the right patients.</p>
                     </div>
-                    <div class="industry">
-                        <img src="images/jewelry.png" alt="Jewelry & Luxury Brands Icon">
+                    <div class="industry-card">
+                        <div class="icon"><img src="images/jewelry.png" alt="Jewelry"></div>
                         <h3 data-i18n="ind_jewelry">Jewelry & Luxury Brands</h3>
-                        <p data-i18n="ind_jewelry_desc">We specialize in positioning luxury brands, Especially in
-                            jewelry, with high-end branding, elegant visuals, and marketing strategies that reflect
-                            exclusivity.</p>
+                        <p data-i18n="ind_jewelry_desc">We specialize in positioning luxury brands, Especially in jewelry, with high-end branding, elegant visuals, and marketing strategies that reflect exclusivity.</p>
                     </div>
-                    <div class="industry">
-                        <img src="images/restaurant.png" alt="Restaurants - F&B Icon">
+                    <div class="industry-card">
+                        <div class="icon"><img src="images/restaurant.png" alt="Restaurants"></div>
                         <h3 data-i18n="ind_restaurants">Restaurants - F&B</h3>
-                        <p data-i18n="ind_restaurants_desc">From menu designs to mouthwatering campaigns, we’ve helped
-                            restaurants stand out, attract loyal customers, and grow their brand visibility.</p>
+                        <p data-i18n="ind_restaurants_desc">From menu designs to mouthwatering campaigns, we’ve helped restaurants stand out, attract loyal customers, and grow their brand visibility.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="experience">
+        <section class="stats-section">
             <div class="container">
-                <div class="experience__text">
-                    <p class="experience__subtitle" data-i18n="exp_subtitle">WORLDWIDE EXPERIENCE</p>
-                    <h2 data-i18n="exp_title">Customer Anticipations</h2>
-                    <p data-i18n="exp_desc">Elevate your Industry with our Specialized 360°​ , Meticulously Designed to
-                        address unique challenges and drive transformative innovation.</p>
-                    <div class="experience__stats">
-                        <div class="stat">
-                            <p class="stat__number">23</p>
-                            <p class="stat__label" data-i18n="stat_team">Team Member</p>
-                        </div>
-                        <div class="stat">
-                            <p class="stat__number">750+</p>
-                            <p class="stat__label" data-i18n="stat_campaign">Success Campaign</p>
-                        </div>
-                        <div class="stat">
-                            <p class="stat__number">10+</p>
-                            <p class="stat__label" data-i18n="stat_exp">Experience</p>
-                        </div>
-                        <div class="stat">
-                            <p class="stat__number">72+</p>
-                            <p class="stat__label" data-i18n="stat_project">Project</p>
+                <div class="stats__content">
+                    <div class="stats__text">
+                        <p class="subtitle" data-i18n="exp_subtitle">WORLDWIDE EXPERIENCE</p>
+                        <h2 data-i18n="exp_title">Customer Anticipations</h2>
+                        <p data-i18n="exp_desc">Elevate your Industry with our Specialized 360°​ , Meticulously Designed to address unique challenges and drive transformative innovation.</p>
+                        <div class="stats__grid">
+                            <div class="stat-item">
+                                <span class="number">23</span>
+                                <p data-i18n="stat_team">Team Member</p>
+                            </div>
+                            <div class="stat-item">
+                                <span class="number">750+</span>
+                                <p data-i18n="stat_campaign">Success Campaign</p>
+                            </div>
+                            <div class="stat-item">
+                                <span class="number">10+</span>
+                                <p data-i18n="stat_exp">Experience</p>
+                            </div>
+                            <div class="stat-item">
+                                <span class="number">72+</span>
+                                <p data-i18n="exp_project">Project</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="experience__image">
-                    <img src="images/world-map-vector.png" alt="World Map">
+                    <div class="stats__image">
+                        <img src="images/world-map-vector.png" alt="World Map">
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="feedback">
+        <section class="testimonials-home">
             <div class="container">
-                <div class="feedback__header">
-                    <p class="feedback__subtitle" data-i18n="feedback_subtitle">FEEDBACKS</p>
+                <div class="section-header">
+                    <p class="subtitle" data-i18n="feedback_subtitle">FEEDBACKS</p>
                     <h2 data-i18n="feedback_title">What People Think About Us</h2>
                 </div>
-                <div class="feedback__grid">
-                    <div class="testimonial">
-                        <img src="images/17-scaled-r7dqcxjuoofknxg90pme36hor1sz2jwqvayrxa92gg.png" alt="Enta Te'dar"
-                            class="testimonial__logo">
-                        <h4 data-i18n="testimonial_1_name">Enta Te'dar</h4>
-                        <p class="testimonial__title" data-i18n="testimonial_1_role">Client</p>
-                        <div class="testimonial__rating">★★★★★</div>
-                        <p data-i18n="testimonial_1_text">The decision to deal with Veiltail Media was one of the
-                            best...</p>
+                <div class="testimonials__grid">
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="text" data-i18n="testimonial_1_text">The decision to deal with Veiltail Media was one of the best...</p>
+                        <div class="author">
+                            <img src="images/17-scaled-r7dqcxjuoofknxg90pme36hor1sz2jwqvayrxa92gg.png" alt="Client">
+                            <div class="info">
+                                <h4 data-i18n="testimonial_1_name">Enta Te'dar</h4>
+                                <p data-i18n="testimonial_1_role">Client</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="testimonial">
-                        <img src="images/16-scaled-r7dqbr9454to5h5ovpc6gz5y0plgg68tphlxbtzs8g.png" alt="Gozour Dar"
-                            class="testimonial__logo">
-                        <h4 data-i18n="testimonial_2_name">Gozour Dar</h4>
-                        <p class="testimonial__title" data-i18n="testimonial_2_role">Client</p>
-                        <div class="testimonial__rating">★★★★★</div>
-                        <p data-i18n="testimonial_2_text">Thank you Veiltail Media team...</p>
-                    </div>
-                    <div class="testimonial">
-                        <img src="images/11-scaled-r7dq7cee24s7ndkfnao89l91mlcfbbq6rncv82jbg0.png" alt="Furnist"
-                            class="testimonial__logo">
-                        <h4 data-i18n="testimonial_3_name">Furnist</h4>
-                        <p class="testimonial__title" data-i18n="testimonial_3_role">Client</p>
-                        <div class="testimonial__rating">★★★★☆</div>
-                        <p data-i18n="testimonial_3_text">Different and unique experience...</p>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="text" data-i18n="testimonial_2_text">Thank you Veiltail Media team...</p>
+                        <div class="author">
+                            <img src="images/16-scaled-r7dqbr9454to5h5ovpc6gz5y0plgg68tphlxbtzs8g.png" alt="Client">
+                            <div class="info">
+                                <h4 data-i18n="testimonial_2_name">Gozour Dar</h4>
+                                <p data-i18n="testimonial_2_role">Client</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="latest-news">
+        <section class="posts-home">
             <div class="container">
-                <div class="latest-news__header">
-                    <p class="latest-news__subtitle" data-i18n="news_subtitle">LATEST NEWS</p>
+                <div class="section-header">
+                    <p class="subtitle" data-i18n="news_subtitle">LATEST NEWS</p>
                     <h2 data-i18n="news_title">Latest Posts</h2>
                 </div>
-                <div class="latest-news__grid">
-                    <div class="post">
-                        <img src="images/blog-01.jpg" alt="Blog post 1">
-                        <h3 data-i18n="post_1_title">From SEO to Strategy...
-                        </h3>
-                        <p class="post__meta" data-i18n="post_1_meta">December 29, 2023 / 2 Comments</p>
-                        <p data-i18n="post_1_desc">Simplify your digital marketing efforts...</p>
-                        <a href="#" class="button button--secondary" data-i18n="btn_read_more">Read More</a>
-                    </div>
-                    <div class="post">
-                        <img src="images/blog-02.jpg" alt="Blog post 2">
-                        <h3 data-i18n="post_2_title">Best Digital Marketing Companies in Egypt</h3>
-                        <p class="post__meta" data-i18n="post_2_meta">December 29, 2023 / 1 Comment</p>
-                        <p data-i18n="post_2_desc">Outpace competition with our proven digital solutions...</p>
-                        <a href="#" class="button button--secondary" data-i18n="btn_read_more">Read More</a>
-                    </div>
-                    <div class="post">
-                        <img src="images/blog-03.jpg" alt="Blog post 3">
-                        <h3 data-i18n="post_3_title">Transform Your Business Landscape...</h3>
-                        <p class="post__meta" data-i18n="post_3_meta">December 29, 2023 / No Comments</p>
-                        <p data-i18n="post_3_desc">Elevate your business landscape with our transformative solutions...
-                        </p>
-                        <a href="#" class="button button--secondary" data-i18n="btn_read_more">Read More</a>
-                    </div>
+                <div class="posts__grid">
+                    <article class="post-card">
+                        <div class="image"><img src="images/blog-01.jpg" alt="Post"></div>
+                        <div class="content">
+                            <h3 data-i18n="post_1_title">From SEO to Strategy: A Decade of Digital Excellence</h3>
+                            <p class="meta" data-i18n="post_1_meta">December 29, 2023 / 2 Comments</p>
+                            <p class="excerpt" data-i18n="post_1_desc">Simplify your digital marketing efforts with our expert team at the helm.…</p>
+                            <a href="blog.html" class="read-more" data-i18n="btn_read_more">Read More</a>
+                        </div>
+                    </article>
+                    <article class="post-card">
+                        <div class="image"><img src="images/blog-02.jpg" alt="Post"></div>
+                        <div class="content">
+                            <h3 data-i18n="post_2_title">Best Digital Marketing Companies in Egypt</h3>
+                            <p class="meta" data-i18n="post_2_meta">December 29, 2023 / 1 Comment</p>
+                            <p class="excerpt" data-i18n="post_2_desc">Outpace competition with our proven digital solutions, designed to propel your business…</p>
+                            <a href="blog.html" class="read-more" data-i18n="btn_read_more">Read More</a>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>
@@ -241,49 +230,50 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="footer__about">
-                <img src="images/logo.png" alt="Veiltail Logo">
-                <p data-i18n="footer_desc">Enhance customer engagement with our intelligent chatbot solutions.
-                    Seamlessly automate conversations and elevate user experiences with cutting-edge AI technology.</p>
-                <div class="footer__social">
-                    <a href="https://www.facebook.com/VeiltailMedia"><img src="images/facebook.svg" alt="Facebook"></a>
-                    <a href="https://wa.me/201558050082"><img src="images/whatsapp.svg" alt="Whatsapp"></a>
-                    <a href="http://tiktok.com/@veiltail.media"><img src="images/tiktok.svg" alt="Tiktok"></a>
+            <div class="footer__grid">
+                <div class="footer__col about">
+                    <img src="images/logo.png" alt="Veiltail" class="footer__logo">
+                    <p data-i18n="footer_desc">Enhance customer engagement with Veiltail Media's specialized services in digital marketing, AI solutions, and creative strategies.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/VeiltailMedia"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/201558050082"><i class="fab fa-whatsapp"></i></a>
+                        <a href="http://tiktok.com/@veiltail.media"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer__col">
+                    <h4 data-i18n="footer_products">Products</h4>
+                    <ul>
+                        <li><a href="#" data-i18n="footer_prod_chatbot">Automated Chatbot</a></li>
+                        <li><a href="#" data-i18n="footer_prod_security">Data Security</a></li>
+                        <li><a href="#" data-i18n="footer_prod_vr">Virtual Reality</a></li>
+                        <li><a href="#" data-i18n="footer_prod_comm">Communication</a></li>
+                        <li><a href="#" data-i18n="footer_prod_support">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4 data-i18n="footer_services">Services</h4>
+                    <ul>
+                        <li><a href="#" data-i18n="footer_serv_faq">FAQ’s</a></li>
+                        <li><a href="#" data-i18n="footer_serv_privacy">Privacy Policy</a></li>
+                        <li><a href="#" data-i18n="footer_serv_terms">Terms & Conditions</a></li>
+                        <li><a href="#" data-i18n="footer_serv_team">Our Team</a></li>
+                        <li><a href="contact-us.html" data-i18n="footer_serv_contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4 data-i18n="footer_company">Company</h4>
+                    <ul>
+                        <li><a href="about-us.html" data-i18n="footer_comp_about">About Us</a></li>
+                        <li><a href="#" data-i18n="footer_comp_services">Services</a></li>
+                        <li><a href="#" data-i18n="footer_comp_features">Features</a></li>
+                        <li><a href="#" data-i18n="footer_comp_pricing">Our Pricing</a></li>
+                        <li><a href="blog.html" data-i18n="footer_comp_news">Latest News</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="footer__links">
-                <h4 data-i18n="footer_products">Products</h4>
-                <ul>
-                    <li><a href="#" data-i18n="footer_prod_chatbot">Automated Chatbot</a></li>
-                    <li><a href="#" data-i18n="footer_prod_security">Data Security</a></li>
-                    <li><a href="#" data-i18n="footer_prod_vr">Virtual Reality</a></li>
-                    <li><a href="#" data-i18n="footer_prod_comm">Communication</a></li>
-                    <li><a href="#" data-i18n="footer_prod_support">Support</a></li>
-                </ul>
+            <div class="footer__bottom">
+                <p data-i18n="footer_copyright">Copyright Veiltail @ 2025 | Powered by : Veiltail Media</p>
             </div>
-            <div class="footer__links">
-                <h4 data-i18n="footer_services">Services</h4>
-                <ul>
-                    <li><a href="#" data-i18n="footer_serv_faq">FAQ’s</a></li>
-                    <li><a href="#" data-i18n="footer_serv_privacy">Privacy Policy</a></li>
-                    <li><a href="#" data-i18n="footer_serv_terms">Terms & Conditions</a></li>
-                    <li><a href="#" data-i18n="footer_serv_team">Our Team</a></li>
-                    <li><a href="#" data-i18n="footer_serv_contact">Contact Us</a></li>
-                </ul>
-            </div>
-            <div class="footer__links">
-                <h4 data-i18n="footer_company">Company</h4>
-                <ul>
-                    <li><a href="#" data-i18n="footer_comp_about">About Us</a></li>
-                    <li><a href="#" data-i18n="footer_comp_services">Services</a></li>
-                    <li><a href="#" data-i18n="footer_comp_features">Features</a></li>
-                    <li><a href="#" data-i18n="footer_comp_pricing">Our Pricing</a></li>
-                    <li><a href="#" data-i18n="footer_comp_news">Latest News</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer__copyright">
-            <p data-i18n="footer_copyright">Copyright Veiltail @ 2025 | Powered by : Veiltail Media</p>
         </div>
     </footer>
 

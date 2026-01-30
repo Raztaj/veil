@@ -54,10 +54,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function updateToggleButton(lang) {
-        // When in AR, show "English" text. When in EN, show "العربية"
-        // But we actually use the translation file for the button text too, 
-        // so this might be redundant if the button has data-i18n.
-        // However, usually the button text itself indicates the *other* language or simply the current language.
-        // Let's rely on data-i18n="lang_toggle" which in ar.json says "English" and in en.json says "العربية".
+        // Handled by data-i18n="lang_toggle"
+    }
+
+    // Mobile Menu Toggle
+    const mobileToggle = document.querySelector('.header__mobile-toggle');
+    const nav = document.querySelector('.header__nav');
+    if (mobileToggle && nav) {
+        mobileToggle.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
     }
 });

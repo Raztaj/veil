@@ -8,8 +8,8 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/rtl.css">
 </head>
 
 <body>
@@ -24,77 +24,105 @@
                     <li><a href="about-us.html" data-i18n="nav_about">About</a></li>
                     <li><a href="our-work.html" data-i18n="nav_work" class="active">Our Work</a></li>
                     <li><a href="blog.html" data-i18n="nav_blog">Blog</a></li>
-                    <li><a href="strategy.html" data-i18n="nav_strategy">Strategy</a></li>
                     <li><a href="contact-us.html" data-i18n="nav_contact">Contact Us</a></li>
                 </ul>
             </nav>
             <div class="header__actions">
                 <a href="#" class="button button--ghost" id="lang-toggle" data-i18n="lang_toggle">العربية</a>
-                <a href="#" class="button button--primary" data-i18n="btn_get_touch">Get in Touch</a>
+                <a href="https://wa.me/201558050082" class="button button--primary" data-i18n="btn_get_touch">Get in Touch</a>
+            </div>
+            <div class="header__mobile-toggle">
+                <i class="fas fa-bars"></i>
             </div>
         </div>
     </header>
 
     <main>
-        <section class="hero">
+        <section class="page-hero">
             <div class="container">
-                <div class="hero__text">
-                    <h1 class="hero__title" data-i18n="work_title">Our Work</h1>
-                    <p data-i18n="work_desc">We help our clients achieve their goals with creativity and innovation...
-                    </p>
-                </div>
+                <h1 data-i18n="work_title">Our Work</h1>
+                <nav class="breadcrumb">
+                    <a href="index.html" data-i18n="nav_home">Home</a> / <span data-i18n="work_title">Our Work</span>
+                </nav>
             </div>
         </section>
 
-        <section class="testimonials">
+        <section class="testimonials-page">
             <div class="container">
-                <h2 class="section__title" data-i18n="feedback_title">Client Feedback</h2>
+                <div class="section-header">
+                    <p class="subtitle" data-i18n="feedback_subtitle">FEEDBACKS</p>
+                    <h2 data-i18n="feedback_title">What People Think About Us</h2>
+                </div>
                 <div class="testimonials__grid">
-                    <div class="testimonial__card">
-                        <img src="images/17-scaled-r7dqcxjuoofknxg90pme36hor1sz2jwqvayrxa92gg.png" alt="Client Logo"
-                            class="testimonial__logo">
-                        <div class="testimonial__stars">★★★★★</div>
-                        <p class="testimonial__text" data-i18n="testimonial_1_text">Decision to deal with Veiltail Media
-                            was one of the best...</p>
-                        <h4 class="testimonial__author" data-i18n="testimonial_1_name">Enta Te'dar</h4>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="text" data-i18n="testimonial_1_text">Decision to deal with Veiltail Media was one of the best...</p>
+                        <div class="author">
+                            <img src="images/17-scaled-r7dqcxjuoofknxg90pme36hor1sz2jwqvayrxa92gg.png" alt="Client">
+                            <div class="info">
+                                <h4 data-i18n="testimonial_1_name">Enta Te'dar</h4>
+                                <p data-i18n="testimonial_1_role">Client</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="testimonial__card">
-                        <img src="images/16-scaled-r7dqbr9454to5h5ovpc6gz5y0plgg68tphlxbtzs8g.png" alt="Client Logo"
-                            class="testimonial__logo">
-                        <div class="testimonial__stars">★★★★★</div>
-                        <p class="testimonial__text" data-i18n="testimonial_2_text">Thank you Veiltail Media team...</p>
-                        <h4 class="testimonial__author" data-i18n="testimonial_2_name">Gozour Dar</h4>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="text" data-i18n="testimonial_2_text">Thank you Veiltail Media team...</p>
+                        <div class="author">
+                            <img src="images/16-scaled-r7dqbr9454to5h5ovpc6gz5y0plgg68tphlxbtzs8g.png" alt="Client">
+                            <div class="info">
+                                <h4 data-i18n="testimonial_2_name">Gozour Dar</h4>
+                                <p data-i18n="testimonial_2_role">Client</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="testimonial__card">
-                        <img src="images/11-scaled-r7dq7cee24s7ndkfnao89l91mlcfbbq6rncv82jbg0.png" alt="Client Logo"
-                            class="testimonial__logo">
-                        <div class="testimonial__stars">★★★★☆</div>
-                        <p class="testimonial__text" data-i18n="testimonial_3_text">Different and unique experience...
-                        </p>
-                        <h4 class="testimonial__author" data-i18n="testimonial_3_name">Furnist</h4>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="text" data-i18n="testimonial_3_text">Different and unique experience...</p>
+                        <div class="author">
+                            <img src="images/11-scaled-r7dq7cee24s7ndkfnao89l91mlcfbbq6rncv82jbg0.png" alt="Client">
+                            <div class="info">
+                                <h4 data-i18n="testimonial_3_name">Furnist</h4>
+                                <p data-i18n="testimonial_1_role">Client</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="testimonial__card">
-                        <img src="images/12-scaled-r7dq7v75uthy3kt4lisrngi9iarrl9sti8ektlrfzk.png" alt="Client Logo"
-                            class="testimonial__logo">
-                        <div class="testimonial__stars">★★★★☆</div>
-                        <p class="testimonial__text" data-i18n="testimonial_4_text">We wish you reconciliation and
-                            success...</p>
-                        <h4 class="testimonial__author" data-i18n="testimonial_4_name">El Saad Mall</h4>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="text" data-i18n="testimonial_4_text">We wish you reconciliation and success...</p>
+                        <div class="author">
+                            <img src="images/12-scaled-r7dq7v75uthy3kt4lisrngi9iarrl9sti8ektlrfzk.png" alt="Client">
+                            <div class="info">
+                                <h4 data-i18n="testimonial_4_name">El Saad Mall</h4>
+                                <p data-i18n="testimonial_1_role">Client</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="portfolio-carousel">
+        <section class="portfolio-gallery">
             <div class="container">
-                <div class="carousel__track">
-                    <img src="images/11-scaled-r7dq7cee24s7ndkfnao89l91mlcfbbq6rncv82jbg0.png" alt="Work 1">
-                    <img src="images/14-scaled-r7dq9tp23e6gabyq5v9scgpu274amkkorxbztcux0w.png" alt="Work 2">
-                    <img src="images/15-scaled-r7dqaqleqlfhkomxtrhq9qeyuom53z7akg5zm1i4z4.png" alt="Work 3">
-                    <img src="images/18-scaled-r7dqdfesaj40siqb4fcawjzg1dcy4svn9rd01jil68.png" alt="Work 4">
-                    <img src="images/19-scaled-r7dqe038gvwbvxw9roa3ferl3uj0u55qolpolmnxdc.png" alt="Work 5">
-                    <img src="images/20-scaled-r7dqekron8omzd28ex7vy9jq6bp3jhfu3g2d5pt9kg.png" alt="Work 6">
-                    <img src="images/21-scaled-r7dqfho1afxo9pqg2tftvj8uyt6y0w2fvywcyeghio.png" alt="Work 7">
+                <div class="section-header">
+                    <h2 data-i18n="nav_work">Our Work</h2>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item"><img src="images/11-scaled-r7dq7cee24s7ndkfnao89l91mlcfbbq6rncv82jbg0.png" alt="Work"></div>
+                    <div class="gallery-item"><img src="images/14-scaled-r7dq9tp23e6gabyq5v9scgpu274amkkorxbztcux0w.png" alt="Work"></div>
+                    <div class="gallery-item"><img src="images/15-scaled-r7dqaqleqlfhkomxtrhq9qeyuom53z7akg5zm1i4z4.png" alt="Work"></div>
+                    <div class="gallery-item"><img src="images/17-scaled-r7dqcxjuoofknxg90pme36hor1sz2jwqvayrxa92gg.png" alt="Work"></div>
+                    <div class="gallery-item"><img src="images/18-scaled-r7dqdfesaj40siqb4fcawjzg1dcy4svn9rd01jil68.png" alt="Work"></div>
+                    <div class="gallery-item"><img src="images/19-scaled-r7dqe038gvwbvxw9roa3ferl3uj0u55qolpolmnxdc.png" alt="Work"></div>
+                    <div class="gallery-item"><img src="images/20-scaled-r7dqekron8omzd28ex7vy9jq6bp3jhfu3g2d5pt9kg.png" alt="Work"></div>
+                    <div class="gallery-item"><img src="images/21-scaled-r7dqfho1afxo9pqg2tftvj8uyt6y0w2fvywcyeghio.png" alt="Work"></div>
+                    <div class="gallery-item"><img src="images/22-scaled-r7dqg9v6zh09y0lhi5mmyc4osdbyft6dzugxcpaoc0.png" alt="Work"></div>
+                    <div class="gallery-item"><img src="images/23-scaled-r7dqhea95cjlt8yry53lfjxibxsqmsmuheiszlmqwg.png" alt="Work"></div>
+                    <div class="gallery-item"><img src="images/25-scaled-r7dqk5x59sbzzwy1sc61rusdas5napme73o9uxj0kw.png" alt="Work"></div>
+                    <div class="gallery-item"><img src="images/26-scaled-r7dqlgx2ri4c4f1s5whe8ixf01pzzksz1kajurlbxs.png" alt="Work"></div>
+                    <div class="gallery-item"><img src="images/12-scaled-r7dq7v75uthy3kt4lisrngi9iarrl9sti8ektlrfzk.png" alt="Work"></div>
+                    <div class="gallery-item"><img src="images/13-scaled-r7dq95995p8zwgy84kphjmvum6gr2fvo0kddc5v5io.png" alt="Work"></div>
+                    <div class="gallery-item"><img src="images/16-scaled-r7dqbr9454to5h5ovpc6gz5y0plgg68tphlxbtzs8g.png" alt="Work"></div>
                 </div>
             </div>
         </section>
@@ -102,27 +130,50 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="footer__about">
-                <img src="images/logo.png" alt="Veiltail Logo">
-                <p data-i18n="footer_desc">Enhance customer engagement...</p>
-                <div class="footer__social">
-                    <a href="https://www.facebook.com/VeiltailMedia"><img src="images/facebook.svg" alt="Facebook"></a>
-                    <a href="https://wa.me/201558050082"><img src="images/whatsapp.svg" alt="Whatsapp"></a>
-                    <a href="http://tiktok.com/@veiltail.media"><img src="images/tiktok.svg" alt="Tiktok"></a>
+            <div class="footer__grid">
+                <div class="footer__col about">
+                    <img src="images/logo.png" alt="Veiltail" class="footer__logo">
+                    <p data-i18n="footer_desc">Enhance customer engagement with Veiltail Media's specialized services in digital marketing, AI solutions, and creative strategies.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/VeiltailMedia"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/201558050082"><i class="fab fa-whatsapp"></i></a>
+                        <a href="http://tiktok.com/@veiltail.media"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer__col">
+                    <h4 data-i18n="footer_products">Products</h4>
+                    <ul>
+                        <li><a href="#" data-i18n="footer_prod_chatbot">Automated Chatbot</a></li>
+                        <li><a href="#" data-i18n="footer_prod_security">Data Security</a></li>
+                        <li><a href="#" data-i18n="footer_prod_vr">Virtual Reality</a></li>
+                        <li><a href="#" data-i18n="footer_prod_comm">Communication</a></li>
+                        <li><a href="#" data-i18n="footer_prod_support">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4 data-i18n="footer_services">Services</h4>
+                    <ul>
+                        <li><a href="#" data-i18n="footer_serv_faq">FAQ’s</a></li>
+                        <li><a href="#" data-i18n="footer_serv_privacy">Privacy Policy</a></li>
+                        <li><a href="#" data-i18n="footer_serv_terms">Terms & Conditions</a></li>
+                        <li><a href="#" data-i18n="footer_serv_team">Our Team</a></li>
+                        <li><a href="contact-us.html" data-i18n="footer_serv_contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4 data-i18n="footer_company">Company</h4>
+                    <ul>
+                        <li><a href="about-us.html" data-i18n="footer_comp_about">About Us</a></li>
+                        <li><a href="#" data-i18n="footer_comp_services">Services</a></li>
+                        <li><a href="#" data-i18n="footer_comp_features">Features</a></li>
+                        <li><a href="#" data-i18n="footer_comp_pricing">Our Pricing</a></li>
+                        <li><a href="blog.html" data-i18n="footer_comp_news">Latest News</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="footer__links">
-                <h4 data-i18n="footer_company">Company</h4>
-                <ul>
-                    <li><a href="index.html" data-i18n="nav_home">Home</a></li>
-                    <li><a href="about-us.html" data-i18n="nav_about">About</a></li>
-                    <li><a href="strategy.html" data-i18n="nav_strategy">Strategy</a></li>
-                    <li><a href="contact-us.html" data-i18n="footer_serv_contact">Contact Us</a></li>
-                </ul>
+            <div class="footer__bottom">
+                <p data-i18n="footer_copyright">Copyright Veiltail @ 2025 | Powered by : Veiltail Media</p>
             </div>
-        </div>
-        <div class="footer__copyright">
-            <p data-i18n="footer_copyright">Copyright Veiltail @ 2025 | Powered by : Veiltail Media</p>
         </div>
     </footer>
 

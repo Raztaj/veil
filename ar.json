@@ -74,7 +74,6 @@
     "footer_comp_news": "أحدث الأخبار",
     "footer_copyright": "حقوق النشر Veiltail @ 2025 | مدعوم من: Veiltail Media",
     "lang_toggle": "English",
-    "nav_strategy": "الاستراتيجية",
     "strat_hero_title": "التحليل الاستراتيجي والمعلومات المؤسسية",
     "strat_hero_subtitle": "ملف تعريفي شامل",
     "strat_intro_title": "نظرة عامة استراتيجية",
@@ -156,5 +155,9 @@
     "testimonial_3_text": "تجربة مختلفة ومميزة بنتمني ليكم كل النجاح شكرا ليكم فريق Veiltail Media",
     "testimonial_4_name": "El Saad Mall - مول السعد",
     "testimonial_4_role": "عميل",
-    "testimonial_4_text": "نتمني التوفيق والنجاح زي ماوصاتونا له بكل بساطة .. نرشح Veiltail Media وبقوة شكرا ليكم"
+    "testimonial_4_text": "نتمني التوفيق والنجاح زي ماوصاتونا له بكل بساطة .. نرشح Veiltail Media وبقوة شكرا ليكم",
+    "form_name": "الاسم",
+    "form_email": "البريد الإلكتروني",
+    "form_message": "رسالتك",
+    "btn_send": "إرسال الرسالة"
 }

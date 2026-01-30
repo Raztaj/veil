@@ -8,8 +8,8 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/rtl.css">
 </head>
 
 <body>
@@ -24,96 +24,110 @@
                     <li><a href="about-us.html" data-i18n="nav_about" class="active">About</a></li>
                     <li><a href="our-work.html" data-i18n="nav_work">Our Work</a></li>
                     <li><a href="blog.html" data-i18n="nav_blog">Blog</a></li>
-                    <li><a href="strategy.html" data-i18n="nav_strategy">Strategy</a></li>
                     <li><a href="contact-us.html" data-i18n="nav_contact">Contact Us</a></li>
                 </ul>
             </nav>
             <div class="header__actions">
                 <a href="#" class="button button--ghost" id="lang-toggle" data-i18n="lang_toggle">العربية</a>
-                <a href="#" class="button button--primary" data-i18n="btn_get_touch">Get in Touch</a>
+                <a href="https://wa.me/201558050082" class="button button--primary" data-i18n="btn_get_touch">Get in Touch</a>
+            </div>
+            <div class="header__mobile-toggle">
+                <i class="fas fa-bars"></i>
             </div>
         </div>
     </header>
 
     <main>
-        <section class="hero">
+        <section class="page-hero">
             <div class="container">
-                <div class="hero__text">
-                    <p class="hero__subtitle" data-i18n="about_who_subtitle">Who We Are</p>
-                    <h1 class="hero__title" data-i18n="about_who_title">We Build Brands That Can't Be Ignored</h1>
-                    <p data-i18n="about_who_desc">We are the spark behind the brands that refuse to blend in. Veiltail
-                        is where rare ideas are born, bold identities are shaped, and impactful campaigns are
-                        launched...</p>
-                </div>
-                <div class="hero__image">
-                    <img src="images/about-us-1.png" alt="About Us">
+                <h1 data-i18n="about_title">About Us</h1>
+                <nav class="breadcrumb">
+                    <a href="index.html" data-i18n="nav_home">Home</a> / <span data-i18n="about_title">About Us</span>
+                </nav>
+            </div>
+        </section>
+
+        <section class="who-we-are">
+            <div class="container">
+                <div class="who-we-are__content">
+                    <div class="text">
+                        <p class="subtitle" data-i18n="about_who_subtitle">Who We Are</p>
+                        <h2 data-i18n="about_who_title">We Build Brands That Can't Be Ignored</h2>
+                        <p data-i18n="about_who_desc">We are the spark behind the brands that refuse to blend in. Veiltail is where rare ideas are born, bold identities are shaped, and impactful campaigns are launched. We see a world where every brand dares to be different—and we’re the ones lighting the path. We don’t sell services; we craft tailored pieces of value that make your brand a glowing masterpiece in its industry.</p>
+                    </div>
+                    <div class="image">
+                        <img src="images/about-us-1.png" alt="About Us">
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="features">
+        <section class="vision">
             <div class="container">
-                <div class="features__text">
-                    <p class="features__subtitle" data-i18n="about_vision_subtitle">Our Vision</p>
-                    <h2 data-i18n="about_vision_title">Breaking The Mold of Marketing</h2>
-                    <p data-i18n="about_vision_desc">Our philosophy is to break the mold and redefine how marketing
-                        feels. We’ve built a space where creativity, data, and passion collide to turn bold ideas into
-                        measurable impact...</p>
+                <div class="vision__content">
+                    <div class="image">
+                        <img src="images/banner-img.png" alt="Vision">
+                    </div>
+                    <div class="text">
+                        <p class="subtitle" data-i18n="about_vision_subtitle">Our Vision</p>
+                        <h2 data-i18n="about_vision_title">Breaking The Mold of Marketing</h2>
+                        <p data-i18n="about_vision_desc">Our philosophy is to break the mold and redefine how marketing feels. We’ve built a space where creativity, data, and passion collide to turn bold ideas into measurable impact. It’s not just about getting attention; it’s about earning it. Our mission is to give your brand the spotlight it truly deserves.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="what-we-do">
+        <section class="team">
             <div class="container">
-                <p class="what-we-do__subtitle" data-i18n="about_team_subtitle">COMPANY TEAM</p>
-                <h2 data-i18n="about_team_title">Meet Our Team</h2>
-                <div class="what-we-do__grid">
-                    <div class="team__grid">
-                        <div class="team__member">
-                            <img src="images/1.png" alt="Steven Masoud">
-                            <h3 data-i18n="team_member_1_name">Steven Masoud</h3>
-                            <p data-i18n="team_member_1_role">Founder, Marketing Consultant</p>
-                        </div>
-                        <div class="team__member">
-                            <img src="images/Untitled-design-13.png" alt="Polycarpus Adel">
-                            <h3 data-i18n="team_member_2_name">Polycarpus Adel</h3>
-                            <p data-i18n="team_member_2_role">Senior Full Stack Developer</p>
-                        </div>
-                        <div class="team__member">
-                            <img src="images/2.png" alt="Fathiya Adil">
-                            <h3 data-i18n="team_member_3_name">Fathiya Adil</h3>
-                            <p data-i18n="team_member_3_role">Social Media Specialist</p>
-                        </div>
-                        <div class="team__member">
-                            <img src="images/3.png" alt="Husam Mubark">
-                            <h3 data-i18n="team_member_4_name">Husam Mubark</h3>
-                            <p data-i18n="team_member_4_role">Reel Creator & Video Editor</p>
-                        </div>
-                        <div class="team__member">
-                            <img src="images/5.png" alt="Tajelsir Khalid">
-                            <h3 data-i18n="team_member_5_name">Tajelsir Khalid</h3>
-                            <p data-i18n="team_member_5_role">Programmer</p>
-                        </div>
-                        <div class="team__member">
-                            <img src="images/7.png" alt="Merna Atif">
-                            <h3 data-i18n="team_member_6_name">Merna Atif</h3>
-                            <p data-i18n="team_member_6_role">AI Operator</p>
-                        </div>
-                        <div class="team__member">
-                            <img src="images/8.png" alt="Mena Gabra">
-                            <h3 data-i18n="team_member_7_name">Mena Gabra</h3>
-                            <p data-i18n="team_member_7_role">Content Creator</p>
-                        </div>
-                        <div class="team__member">
-                            <img src="images/Untitled-design-14.png" alt="Heba Abdulla">
-                            <h3 data-i18n="team_member_8_name">Heba Abdulla</h3>
-                            <p data-i18n="team_member_8_role">Media Buyer</p>
-                        </div>
-                        <div class="team__member">
-                            <img src="images/120000-2.jpg" alt="Mohamed Nasr">
-                            <h3 data-i18n="team_member_9_name">Mohamed Nasr</h3>
-                            <p data-i18n="team_member_9_role">Graphic Designer</p>
-                        </div>
+                <div class="section-header">
+                    <p class="subtitle" data-i18n="about_team_subtitle">COMPANY TEAM</p>
+                    <h2 data-i18n="about_team_title">Meet Our Team</h2>
+                </div>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="avatar"><img src="images/1.png" alt="Steven Masoud"></div>
+                        <h3 data-i18n="team_member_1_name">Steven Masoud</h3>
+                        <p data-i18n="team_member_1_role">Founder, Marketing Consultant</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="avatar"><img src="images/Untitled-design-13.png" alt="Polycarpus Adel"></div>
+                        <h3 data-i18n="team_member_2_name">Polycarpus Adel</h3>
+                        <p data-i18n="team_member_2_role">Senior Full Stack Developer</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="avatar"><img src="images/2.png" alt="Fathiya Adil"></div>
+                        <h3 data-i18n="team_member_3_name">Fathiya Adil</h3>
+                        <p data-i18n="team_member_3_role">Social Media Specialist</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="avatar"><img src="images/3.png" alt="Husam Mubark"></div>
+                        <h3 data-i18n="team_member_4_name">Husam Mubark</h3>
+                        <p data-i18n="team_member_4_role">Reel Creator & Video Editor</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="avatar"><img src="images/5.png" alt="Tajelsir Khalid"></div>
+                        <h3 data-i18n="team_member_5_name">Tajelsir Khalid</h3>
+                        <p data-i18n="team_member_5_role">Programmer</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="avatar"><img src="images/7.png" alt="Merna Atif"></div>
+                        <h3 data-i18n="team_member_6_name">Merna Atif</h3>
+                        <p data-i18n="team_member_6_role">AI Operator</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="avatar"><img src="images/8.png" alt="Mena Gabra"></div>
+                        <h3 data-i18n="team_member_7_name">Mena Gabra</h3>
+                        <p data-i18n="team_member_7_role">Content Creator</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="avatar"><img src="images/Untitled-design-14.png" alt="Heba Abdulla"></div>
+                        <h3 data-i18n="team_member_8_name">Heba Abdulla</h3>
+                        <p data-i18n="team_member_8_role">Media Buyer</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="avatar"><img src="images/120000-2.jpg" alt="Mohamed Nasr"></div>
+                        <h3 data-i18n="team_member_9_name">Mohamed Nasr</h3>
+                        <p data-i18n="team_member_9_role">Graphic Designer</p>
                     </div>
                 </div>
             </div>
@@ -122,27 +136,50 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="footer__about">
-                <img src="images/logo.png" alt="Veiltail Logo">
-                <p data-i18n="footer_desc">Enhance customer engagement...</p>
-                <div class="footer__social">
-                    <a href="https://www.facebook.com/VeiltailMedia"><img src="images/facebook.svg" alt="Facebook"></a>
-                    <a href="https://wa.me/201558050082"><img src="images/whatsapp.svg" alt="Whatsapp"></a>
-                    <a href="http://tiktok.com/@veiltail.media"><img src="images/tiktok.svg" alt="Tiktok"></a>
+            <div class="footer__grid">
+                <div class="footer__col about">
+                    <img src="images/logo.png" alt="Veiltail" class="footer__logo">
+                    <p data-i18n="footer_desc">Enhance customer engagement with Veiltail Media's specialized services in digital marketing, AI solutions, and creative strategies.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/VeiltailMedia"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/201558050082"><i class="fab fa-whatsapp"></i></a>
+                        <a href="http://tiktok.com/@veiltail.media"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer__col">
+                    <h4 data-i18n="footer_products">Products</h4>
+                    <ul>
+                        <li><a href="#" data-i18n="footer_prod_chatbot">Automated Chatbot</a></li>
+                        <li><a href="#" data-i18n="footer_prod_security">Data Security</a></li>
+                        <li><a href="#" data-i18n="footer_prod_vr">Virtual Reality</a></li>
+                        <li><a href="#" data-i18n="footer_prod_comm">Communication</a></li>
+                        <li><a href="#" data-i18n="footer_prod_support">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4 data-i18n="footer_services">Services</h4>
+                    <ul>
+                        <li><a href="#" data-i18n="footer_serv_faq">FAQ’s</a></li>
+                        <li><a href="#" data-i18n="footer_serv_privacy">Privacy Policy</a></li>
+                        <li><a href="#" data-i18n="footer_serv_terms">Terms & Conditions</a></li>
+                        <li><a href="#" data-i18n="footer_serv_team">Our Team</a></li>
+                        <li><a href="contact-us.html" data-i18n="footer_serv_contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4 data-i18n="footer_company">Company</h4>
+                    <ul>
+                        <li><a href="about-us.html" data-i18n="footer_comp_about">About Us</a></li>
+                        <li><a href="#" data-i18n="footer_comp_services">Services</a></li>
+                        <li><a href="#" data-i18n="footer_comp_features">Features</a></li>
+                        <li><a href="#" data-i18n="footer_comp_pricing">Our Pricing</a></li>
+                        <li><a href="blog.html" data-i18n="footer_comp_news">Latest News</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="footer__links">
-                <h4 data-i18n="footer_company">Company</h4>
-                <ul>
-                    <li><a href="index.html" data-i18n="nav_home">Home</a></li>
-                    <li><a href="about-us.html" data-i18n="nav_about">About</a></li>
-                    <li><a href="strategy.html" data-i18n="nav_strategy">Strategy</a></li>
-                    <li><a href="contact-us.html" data-i18n="footer_serv_contact">Contact Us</a></li>
-                </ul>
+            <div class="footer__bottom">
+                <p data-i18n="footer_copyright">Copyright Veiltail @ 2025 | Powered by : Veiltail Media</p>
             </div>
-        </div>
-        <div class="footer__copyright">
-            <p data-i18n="footer_copyright">Copyright Veiltail @ 2025 | Powered by : Veiltail Media</p>
         </div>
     </footer>
 
