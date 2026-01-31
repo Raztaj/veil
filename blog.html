@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
@@ -8,8 +8,9 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/rtl.css">
 </head>
 
 <body>
@@ -30,74 +31,48 @@
             </nav>
             <div class="header__actions">
                 <a href="#" class="button button--ghost" id="lang-toggle" data-i18n="lang_toggle">العربية</a>
-                <a href="#" class="button button--primary" data-i18n="btn_get_touch">Get in Touch</a>
+                <a href="contact-us.html" class="button button--primary" data-i18n="btn_get_touch">Get in Touch</a>
             </div>
         </div>
     </header>
 
     <main>
-        <section class="hero">
-            <div class="container">
-                <div class="hero__text">
-                    <h1 class="hero__title" data-i18n="nav_blog">Blog</h1>
-                    <p data-i18n="blog_desc">Our latest insights and updates...</p>
-                </div>
+        <section class="presentation-container">
+            <div class="section-header">
+                <h1 data-i18n="nav_blog">Blog</h1>
             </div>
-        </section>
+            <p data-i18n="blog_desc">Our latest insights and updates...</p>
 
-        <section class="latest-news">
-            <div class="container">
-                <div class="latest-news__grid">
-                    <article class="post">
-                        <img src="images/blog-01.jpg" alt="Blog Post">
-                        <h3 data-i18n="post_1_title">From SEO to Strategy...</h3>
-                        <p class="post__meta" data-i18n="post_1_meta">December 29, 2023 / 2 Comments</p>
-                        <p data-i18n="post_1_desc">Simplify your digital marketing efforts...</p>
-                        <a href="#" class="button button--secondary" data-i18n="btn_read_more">Read More</a>
-                    </article>
-                    <article class="post">
-                        <img src="images/blog-02.jpg" alt="Blog Post">
-                        <h3 data-i18n="post_2_title">Best Digital Marketing...</h3>
-                        <p class="post__meta" data-i18n="post_2_meta">December 29, 2023 / 1 Comment</p>
-                        <p data-i18n="post_2_desc">Outpace competition with our proven digital solutions...</p>
-                        <a href="#" class="button button--secondary" data-i18n="btn_read_more">Read More</a>
-                    </article>
-                    <article class="post">
-                        <img src="images/blog-03.jpg" alt="Blog Post">
-                        <h3 data-i18n="post_3_title">Transform Your Business...</h3>
-                        <p class="post__meta" data-i18n="post_3_meta">December 29, 2023 / No Comments</p>
-                        <p data-i18n="post_3_desc">Elevate your business landscape with our transformative solutions...
-                        </p>
-                        <a href="#" class="button button--secondary" data-i18n="btn_read_more">Read More</a>
-                    </article>
-                </div>
+            <div class="work-grid" style="margin-top: 3rem;">
+                <article class="work-item">
+                    <img src="images/blog-01.jpg" alt="Blog Post" style="width: 100%; border-radius: 8px;">
+                    <h3 data-i18n="post_1_title" style="margin-top: 1rem;">From SEO to Strategy...</h3>
+                    <p class="post__meta" data-i18n="post_1_meta" style="font-size: 0.8rem; color: #666;">December 29, 2023 / 2 Comments</p>
+                    <p data-i18n="post_1_desc">Simplify your digital marketing efforts...</p>
+                    <a href="#" class="btn-contact" style="padding: 8px 16px; font-size: 0.9rem; margin-top: 1rem;" data-i18n="btn_read_more">Read More</a>
+                </article>
+                <article class="work-item">
+                    <img src="images/blog-02.jpg" alt="Blog Post" style="width: 100%; border-radius: 8px;">
+                    <h3 data-i18n="post_2_title" style="margin-top: 1rem;">Best Digital Marketing...</h3>
+                    <p class="post__meta" data-i18n="post_2_meta" style="font-size: 0.8rem; color: #666;">December 29, 2023 / 1 Comment</p>
+                    <p data-i18n="post_2_desc">Outpace competition with our proven digital solutions...</p>
+                    <a href="#" class="btn-contact" style="padding: 8px 16px; font-size: 0.9rem; margin-top: 1rem;" data-i18n="btn_read_more">Read More</a>
+                </article>
+                <article class="work-item">
+                    <img src="images/blog-03.jpg" alt="Blog Post" style="width: 100%; border-radius: 8px;">
+                    <h3 data-i18n="post_3_title" style="margin-top: 1rem;">Transform Your Business...</h3>
+                    <p class="post__meta" data-i18n="post_3_meta" style="font-size: 0.8rem; color: #666;">December 29, 2023 / No Comments</p>
+                    <p data-i18n="post_3_desc">Elevate your business landscape with our transformative solutions...</p>
+                    <a href="#" class="btn-contact" style="padding: 8px 16px; font-size: 0.9rem; margin-top: 1rem;" data-i18n="btn_read_more">Read More</a>
+                </article>
             </div>
         </section>
     </main>
 
-    <footer class="footer">
+    <footer>
         <div class="container">
-            <div class="footer__about">
-                <img src="images/logo.png" alt="Veiltail Logo">
-                <p data-i18n="footer_desc">Enhance customer engagement...</p>
-                <div class="footer__social">
-                    <a href="https://www.facebook.com/VeiltailMedia"><img src="images/facebook.svg" alt="Facebook"></a>
-                    <a href="https://wa.me/201558050082"><img src="images/whatsapp.svg" alt="Whatsapp"></a>
-                    <a href="http://tiktok.com/@veiltail.media"><img src="images/tiktok.svg" alt="Tiktok"></a>
-                </div>
-            </div>
-            <div class="footer__links">
-                <h4 data-i18n="footer_company">Company</h4>
-                <ul>
-                    <li><a href="index.html" data-i18n="nav_home">Home</a></li>
-                    <li><a href="about-us.html" data-i18n="nav_about">About</a></li>
-                    <li><a href="strategy.html" data-i18n="nav_strategy">Strategy</a></li>
-                    <li><a href="contact-us.html" data-i18n="footer_serv_contact">Contact Us</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer__copyright">
             <p data-i18n="footer_copyright">Copyright Veiltail @ 2025 | Powered by : Veiltail Media</p>
+            <p>www.veiltail.net</p>
         </div>
     </footer>
 

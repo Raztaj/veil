@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veiltail - Strategic Analysis</title>
+    <title>Strategy - Veiltail Marketing</title>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/rtl.css">
 </head>
 
 <body>
@@ -30,132 +31,96 @@
             </nav>
             <div class="header__actions">
                 <a href="#" class="button button--ghost" id="lang-toggle" data-i18n="lang_toggle">العربية</a>
-                <a href="#" class="button button--primary" data-i18n="btn_get_touch">Get in Touch</a>
+                <a href="contact-us.html" class="button button--primary" data-i18n="btn_get_touch">Get in Touch</a>
             </div>
         </div>
     </header>
 
     <main>
-        <section class="hero">
-            <div class="container">
-                <div class="hero__text">
-                    <p class="hero__subtitle" data-i18n="strat_hero_subtitle">FORENSIC PROFILE</p>
-                    <h1 class="hero__title" data-i18n="strat_hero_title">Strategic Analysis & Corporate Intelligence
-                    </h1>
-                    <p data-i18n="strat_intro_desc">This analysis dissects Veiltail Media’s operational philosophy...
-                    </p>
+        <section class="presentation-container">
+            <!-- Hero Section -->
+            <div class="section-header">
+                <p class="section-number" data-i18n="strat_hero_subtitle">FORENSIC PROFILE</p>
+                <h1 data-i18n="strat_hero_title">Strategic Analysis & Corporate Intelligence</h1>
+            </div>
+
+            <div class="manifesto-section">
+                <p class="manifesto-text" data-i18n="strat_intro_desc">This analysis dissects Veiltail Media’s operational philosophy, market positioning, and the 'Metaphorical Intelligence' that drives its success.</p>
+            </div>
+
+            <!-- Metaphor Section -->
+            <div class="section-header" style="margin-top: 4rem;">
+                <h2 data-i18n="strat_meta_title">The Veiltail Metaphor</h2>
+            </div>
+            <p data-i18n="strat_meta_desc" style="margin-bottom: 2rem;">Our name is not arbitrary; it is a strategic identity derived from the Betta splendens.</p>
+
+            <div class="work-grid">
+                <div class="service-card">
+                    <h3 data-i18n="strat_meta_1_title">Aesthetic Distinctiveness</h3>
+                    <p data-i18n="strat_meta_1_desc">Prized for visual beauty, mirroring our commitment to high-end creative production.</p>
+                </div>
+                <div class="service-card">
+                    <h3 data-i18n="strat_meta_2_title">Aggressive Territoriality</h3>
+                    <p data-i18n="strat_meta_2_desc">Like the Siamese Fighting Fish, we dominate the digital space.</p>
+                </div>
+                <div class="service-card">
+                    <h3 data-i18n="strat_meta_3_title">Resilience</h3>
+                    <p data-i18n="strat_meta_3_desc">Thriving where others stagnate, adapting to shifting algorithms.</p>
                 </div>
             </div>
-        </section>
 
-        <section class="features">
-            <div class="container">
-                <div class="features__text">
-                    <h2 data-i18n="strat_meta_title">The Veiltail Metaphor</h2>
-                    <p data-i18n="strat_meta_desc">Our name is not arbitrary...</p>
-
-                    <div style="margin-top: 30px;">
-                        <h3 data-i18n="strat_meta_1_title">Aesthetic Distinctiveness</h3>
-                        <p data-i18n="strat_meta_1_desc">Prized for visual beauty...</p>
-                    </div>
-                    <div style="margin-top: 20px;">
-                        <h3 data-i18n="strat_meta_2_title">Aggressive Territoriality</h3>
-                        <p data-i18n="strat_meta_2_desc">Like the Siamese Fighting Fish...</p>
-                    </div>
-                    <div style="margin-top: 20px;">
-                        <h3 data-i18n="strat_meta_3_title">Resilience</h3>
-                        <p data-i18n="strat_meta_3_desc">Thriving where others stagnate...</p>
-                    </div>
-                </div>
-                <div class="features__image">
-                    <!-- Using banner-img as placeholder for now as per previous logic -->
-                    <img src="images/banner-img.png" alt="Veiltail Metaphor">
-                </div>
+            <!-- Motto Section -->
+            <div class="section-header" style="margin-top: 4rem;">
+                <h2 data-i18n="strat_motto_title">The Motto: 'Feeds on Shrimp'</h2>
             </div>
-        </section>
-
-        <section class="what-we-do" style="background-color: var(--neutral-off-white);">
-            <div class="container">
-                <div class="what-we-do__header">
-                    <h2 data-i18n="strat_motto_title">The Motto: 'Feeds on Shrimp'</h2>
-                    <p data-i18n="strat_motto_desc" style="max-width: 800px; margin: 0 auto;">“Be a unique piece that
-                        feeds on shrimp.”...</p>
-                </div>
+            <div class="service-card" style="background: #f0f7f0; border-right: 5px solid var(--primary-green);">
+                <p class="manifesto-text" data-i18n="strat_motto_desc">“Be a unique piece that feeds on shrimp.” In the ecosystem of commerce, 'shrimp' represents the vast opportunities often overlooked by sluggish competitors.</p>
             </div>
-        </section>
 
-        <section class="services">
-            <div class="container">
-                <div style="grid-column: 1 / -1; margin-bottom: 20px;">
-                    <h2 data-i18n="strat_ops_title">Operational Capabilities</h2>
-                </div>
-                <div class="service">
-                    <img src="images/automation.png" alt="AI Icon">
+            <!-- Operational Capabilities -->
+            <div class="section-header" style="margin-top: 4rem;">
+                <h2 data-i18n="strat_ops_title">Operational Capabilities</h2>
+            </div>
+            <div class="work-grid">
+                <div class="service-card">
                     <h3 data-i18n="strat_ops_ai">AI Operators</h3>
-                    <p data-i18n="strat_ops_ai_desc">Institutionalized use of AI...</p>
+                    <p data-i18n="strat_ops_ai_desc">Institutionalized use of AI for predictive analytics and content optimization.</p>
                 </div>
-                <div class="service">
-                    <img src="images/clous.png" alt="VR Icon">
+                <div class="service-card">
                     <h3 data-i18n="strat_ops_vr">Virtual Reality</h3>
-                    <p data-i18n="strat_ops_vr_desc">Moving marketing from passive viewing...</p>
+                    <p data-i18n="strat_ops_vr_desc">Moving marketing from passive viewing to immersive experience.</p>
                 </div>
-                <div class="service">
-                    <img src="images/secure.png" alt="Security Icon">
+                <div class="service-card">
                     <h3 data-i18n="strat_ops_sec">Data Security</h3>
-                    <p data-i18n="strat_ops_sec_desc">Ensuring the security of collected lead data...</p>
+                    <p data-i18n="strat_ops_sec_desc">Ensuring the security of collected lead data.</p>
+                </div>
+            </div>
+
+            <!-- Sector Impact -->
+            <div class="section-header" style="margin-top: 4rem;">
+                <h2 data-i18n="strat_sectors_title">Strategic Sector Impact</h2>
+            </div>
+            <div class="work-grid">
+                <div class="service-card">
+                    <h3 data-i18n="strat_sec_furn">Furniture</h3>
+                    <p data-i18n="strat_sec_furn_desc">Digitizing the showroom experience through high-fidelity visual storytelling.</p>
+                </div>
+                <div class="service-card">
+                    <h3 data-i18n="strat_sec_health">Healthcare</h3>
+                    <p data-i18n="strat_sec_health_desc">Building trust and authority in medical sectors through clinical precision.</p>
+                </div>
+                <div class="service-card">
+                    <h3 data-i18n="strat_sec_retail">Retail</h3>
+                    <p data-i18n="strat_sec_retail_desc">Driving footfall and e-commerce conversions through aggressive performance marketing.</p>
                 </div>
             </div>
         </section>
-
-        <section class="experience">
-            <div class="container">
-                <div class="experience__text">
-                    <h2 data-i18n="strat_sectors_title">Strategic Sector Impact</h2>
-                    <ul style="list-style: none; padding: 0; margin-top: 30px;">
-                        <li style="margin-bottom: 20px;">
-                            <strong data-i18n="strat_sec_furn"
-                                style="color: var(--primary-green); font-size: 1.2em;">Furniture</strong>
-                            <p data-i18n="strat_sec_furn_desc">Digitizing the showroom...</p>
-                        </li>
-                        <li style="margin-bottom: 20px;">
-                            <strong data-i18n="strat_sec_health"
-                                style="color: var(--primary-green); font-size: 1.2em;">Healthcare</strong>
-                            <p data-i18n="strat_sec_health_desc">Building trust...</p>
-                        </li>
-                        <li style="margin-bottom: 20px;">
-                            <strong data-i18n="strat_sec_retail"
-                                style="color: var(--primary-green); font-size: 1.2em;">Retail</strong>
-                            <p data-i18n="strat_sec_retail_desc">Driving footfall...</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
     </main>
 
-    <footer class="footer">
+    <footer>
         <div class="container">
-            <div class="footer__about">
-                <img src="images/logo.png" alt="Veiltail Logo">
-                <p data-i18n="footer_desc">Enhance customer engagement...</p>
-                <div class="footer__social">
-                    <a href="https://www.facebook.com/VeiltailMedia"><img src="images/facebook.svg" alt="Facebook"></a>
-                    <a href="https://wa.me/201558050082"><img src="images/whatsapp.svg" alt="Whatsapp"></a>
-                    <a href="http://tiktok.com/@veiltail.media"><img src="images/tiktok.svg" alt="Tiktok"></a>
-                </div>
-            </div>
-            <div class="footer__links">
-                <h4 data-i18n="footer_company">Company</h4>
-                <ul>
-                    <li><a href="index.html" data-i18n="nav_home">Home</a></li>
-                    <li><a href="strategy.html" data-i18n="nav_strategy">Strategy</a></li>
-                    <li><a href="#" data-i18n="footer_serv_contact">Contact Us</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer__copyright">
             <p data-i18n="footer_copyright">Copyright Veiltail @ 2025 | Powered by : Veiltail Media</p>
+            <p>www.veiltail.net</p>
         </div>
     </footer>
 
