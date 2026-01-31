@@ -2,8 +2,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const langToggleBtn = document.getElementById('lang-toggle');
     const htmlEl = document.documentElement;
 
+    // Check URL params for lang
+    const urlParams = new URLSearchParams(window.location.search);
+    const langParam = urlParams.get('lang');
+
     // Default to 'ar' if not set
-    let currentLang = localStorage.getItem('lang') || 'ar';
+    let currentLang = langParam || localStorage.getItem('lang') || 'ar';
 
     // Initial Load
     setLanguage(currentLang);

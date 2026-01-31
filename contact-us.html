@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
@@ -8,8 +8,9 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/rtl.css">
 </head>
 
 <body>
@@ -30,61 +31,41 @@
             </nav>
             <div class="header__actions">
                 <a href="#" class="button button--ghost" id="lang-toggle" data-i18n="lang_toggle">العربية</a>
-                <a href="#" class="button button--primary" data-i18n="btn_get_touch">Get in Touch</a>
+                <a href="contact-us.html" class="button button--primary" data-i18n="btn_get_touch">Get in Touch</a>
             </div>
         </div>
     </header>
 
     <main>
-        <section class="hero">
-            <div class="container">
-                <div class="hero__text">
-                    <p class="hero__subtitle" data-i18n="contact_subtitle">CONTACT US</p>
-                    <h1 class="hero__title" data-i18n="contact_header">Get in Touch with Our Team Specialists</h1>
-                    <p data-i18n="contact_desc">Connect with us today to explore tailored solutions that propel your
-                        business forward...</p>
+        <section class="presentation-container">
+            <div class="section-header">
+                <p class="section-number" data-i18n="contact_subtitle">CONTACT US</p>
+                <h1 data-i18n="contact_header">Get in Touch with Our Team Specialists</h1>
+            </div>
+            <p data-i18n="contact_desc">Connect with us today to explore tailored solutions that propel your business forward...</p>
 
-                    <div style="margin-top: 40px;">
-                        <h3 data-i18n="contact_mail">Company Mail</h3>
-                        <p><a href="mailto:info@veiltail.net">info@veiltail.net</a></p>
-                    </div>
-                    <div style="margin-top: 20px;">
-                        <h3 data-i18n="contact_phone">Phone Number</h3>
-                        <p><a href="tel:+201556554832">+20 155 6 55 48 32</a></p>
-                        <p><a href="tel:+201558050082">+20 155 80 500 82</a></p>
-                    </div>
-                    <div style="margin-top: 20px;">
-                        <h3 data-i18n="contact_location">Office Location</h3>
-                        <p>7 Mahmoud saber, square, st, Heliopolis, Cairo Governorate 4470313</p>
-                    </div>
+            <div class="services-grid" style="margin-top: 3rem;">
+                <div class="service-card">
+                    <h3 data-i18n="contact_mail">Company Mail</h3>
+                    <p><a href="mailto:info@veiltail.net" style="color: var(--primary-green);">info@veiltail.net</a></p>
+                </div>
+                <div class="service-card">
+                    <h3 data-i18n="contact_phone">Phone Number</h3>
+                    <p><a href="tel:+201556554832" style="color: var(--primary-green);">+20 155 6 55 48 32</a></p>
+                    <p><a href="tel:+201558050082" style="color: var(--primary-green);">+20 155 80 500 82</a></p>
+                </div>
+                <div class="service-card">
+                    <h3 data-i18n="contact_location">Office Location</h3>
+                    <p>7 Mahmoud saber, square, st, Heliopolis, Cairo Governorate 4470313</p>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="footer">
+    <footer>
         <div class="container">
-            <div class="footer__about">
-                <img src="images/logo.png" alt="Veiltail Logo">
-                <p data-i18n="footer_desc">Enhance customer engagement...</p>
-                <div class="footer__social">
-                    <a href="https://www.facebook.com/VeiltailMedia"><img src="images/facebook.svg" alt="Facebook"></a>
-                    <a href="https://wa.me/201558050082"><img src="images/whatsapp.svg" alt="Whatsapp"></a>
-                    <a href="http://tiktok.com/@veiltail.media"><img src="images/tiktok.svg" alt="Tiktok"></a>
-                </div>
-            </div>
-            <div class="footer__links">
-                <h4 data-i18n="footer_company">Company</h4>
-                <ul>
-                    <li><a href="index.html" data-i18n="nav_home">Home</a></li>
-                    <li><a href="about-us.html" data-i18n="nav_about">About</a></li>
-                    <li><a href="strategy.html" data-i18n="nav_strategy">Strategy</a></li>
-                    <li><a href="contact-us.html" data-i18n="footer_serv_contact">Contact Us</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer__copyright">
             <p data-i18n="footer_copyright">Copyright Veiltail @ 2025 | Powered by : Veiltail Media</p>
+            <p>www.veiltail.net</p>
         </div>
     </footer>
 
