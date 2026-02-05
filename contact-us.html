@@ -8,8 +8,8 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/rtl.css">
 </head>
 
 <body>
@@ -24,38 +24,75 @@
                     <li><a href="about-us.html" data-i18n="nav_about">About</a></li>
                     <li><a href="our-work.html" data-i18n="nav_work">Our Work</a></li>
                     <li><a href="blog.html" data-i18n="nav_blog">Blog</a></li>
-                    <li><a href="strategy.html" data-i18n="nav_strategy">Strategy</a></li>
                     <li><a href="contact-us.html" data-i18n="nav_contact" class="active">Contact Us</a></li>
                 </ul>
             </nav>
             <div class="header__actions">
                 <a href="#" class="button button--ghost" id="lang-toggle" data-i18n="lang_toggle">العربية</a>
-                <a href="#" class="button button--primary" data-i18n="btn_get_touch">Get in Touch</a>
+                <a href="https://wa.me/201558050082" class="button button--primary" data-i18n="btn_get_touch">Get in Touch</a>
+            </div>
+            <div class="header__mobile-toggle">
+                <i class="fas fa-bars"></i>
             </div>
         </div>
     </header>
 
     <main>
-        <section class="hero">
+        <section class="page-hero">
             <div class="container">
-                <div class="hero__text">
-                    <p class="hero__subtitle" data-i18n="contact_subtitle">CONTACT US</p>
-                    <h1 class="hero__title" data-i18n="contact_header">Get in Touch with Our Team Specialists</h1>
-                    <p data-i18n="contact_desc">Connect with us today to explore tailored solutions that propel your
-                        business forward...</p>
+                <h1 data-i18n="nav_contact">Contact Us</h1>
+                <nav class="breadcrumb">
+                    <a href="index.html" data-i18n="nav_home">Home</a> / <span data-i18n="nav_contact">Contact Us</span>
+                </nav>
+            </div>
+        </section>
 
-                    <div style="margin-top: 40px;">
-                        <h3 data-i18n="contact_mail">Company Mail</h3>
-                        <p><a href="mailto:info@veiltail.net">info@veiltail.net</a></p>
+        <section class="contact-info-section">
+            <div class="container">
+                <div class="contact__grid">
+                    <div class="info-side">
+                        <p class="subtitle" data-i18n="contact_subtitle">CONTACT US</p>
+                        <h2 data-i18n="contact_header">Get in Touch with Our Team Specialists</h2>
+                        <p class="desc" data-i18n="contact_desc">Connect with us today to explore tailored solutions that propel your business forward...</p>
+
+                        <div class="contact-methods">
+                            <div class="method">
+                                <div class="icon"><i class="fas fa-envelope"></i></div>
+                                <div class="details">
+                                    <h4 data-i18n="contact_mail">Company Mail</h4>
+                                    <p><a href="mailto:info@veiltail.net">info@veiltail.net</a></p>
+                                </div>
+                            </div>
+                            <div class="method">
+                                <div class="icon"><i class="fas fa-phone"></i></div>
+                                <div class="details">
+                                    <h4 data-i18n="contact_phone">Phone Number</h4>
+                                    <p><a href="tel:+201556554832">+20 155 6 55 48 32</a></p>
+                                    <p><a href="tel:+201558050082">+20 155 80 500 82</a></p>
+                                </div>
+                            </div>
+                            <div class="method">
+                                <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                                <div class="details">
+                                    <h4 data-i18n="contact_location">Office Location</h4>
+                                    <p>7 Mahmoud saber, square, st, Heliopolis, Cairo Governorate 4470313</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div style="margin-top: 20px;">
-                        <h3 data-i18n="contact_phone">Phone Number</h3>
-                        <p><a href="tel:+201556554832">+20 155 6 55 48 32</a></p>
-                        <p><a href="tel:+201558050082">+20 155 80 500 82</a></p>
-                    </div>
-                    <div style="margin-top: 20px;">
-                        <h3 data-i18n="contact_location">Office Location</h3>
-                        <p>7 Mahmoud saber, square, st, Heliopolis, Cairo Governorate 4470313</p>
+                    <div class="form-side">
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <input type="text" placeholder="Your Name" data-i18n="form_name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Your Email" data-i18n="form_email">
+                            </div>
+                            <div class="form-group">
+                                <textarea placeholder="Your Message" rows="5" data-i18n="form_message"></textarea>
+                            </div>
+                            <button type="submit" class="button button--primary" data-i18n="btn_send">Send Message</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -64,27 +101,50 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="footer__about">
-                <img src="images/logo.png" alt="Veiltail Logo">
-                <p data-i18n="footer_desc">Enhance customer engagement...</p>
-                <div class="footer__social">
-                    <a href="https://www.facebook.com/VeiltailMedia"><img src="images/facebook.svg" alt="Facebook"></a>
-                    <a href="https://wa.me/201558050082"><img src="images/whatsapp.svg" alt="Whatsapp"></a>
-                    <a href="http://tiktok.com/@veiltail.media"><img src="images/tiktok.svg" alt="Tiktok"></a>
+            <div class="footer__grid">
+                <div class="footer__col about">
+                    <img src="images/logo.png" alt="Veiltail" class="footer__logo">
+                    <p data-i18n="footer_desc">Enhance customer engagement with Veiltail Media's specialized services in digital marketing, AI solutions, and creative strategies.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/VeiltailMedia"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/201558050082"><i class="fab fa-whatsapp"></i></a>
+                        <a href="http://tiktok.com/@veiltail.media"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer__col">
+                    <h4 data-i18n="footer_products">Products</h4>
+                    <ul>
+                        <li><a href="#" data-i18n="footer_prod_chatbot">Automated Chatbot</a></li>
+                        <li><a href="#" data-i18n="footer_prod_security">Data Security</a></li>
+                        <li><a href="#" data-i18n="footer_prod_vr">Virtual Reality</a></li>
+                        <li><a href="#" data-i18n="footer_prod_comm">Communication</a></li>
+                        <li><a href="#" data-i18n="footer_prod_support">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4 data-i18n="footer_services">Services</h4>
+                    <ul>
+                        <li><a href="#" data-i18n="footer_serv_faq">FAQ’s</a></li>
+                        <li><a href="#" data-i18n="footer_serv_privacy">Privacy Policy</a></li>
+                        <li><a href="#" data-i18n="footer_serv_terms">Terms & Conditions</a></li>
+                        <li><a href="#" data-i18n="footer_serv_team">Our Team</a></li>
+                        <li><a href="contact-us.html" data-i18n="footer_serv_contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4 data-i18n="footer_company">Company</h4>
+                    <ul>
+                        <li><a href="about-us.html" data-i18n="footer_comp_about">About Us</a></li>
+                        <li><a href="#" data-i18n="footer_comp_services">Services</a></li>
+                        <li><a href="#" data-i18n="footer_comp_features">Features</a></li>
+                        <li><a href="#" data-i18n="footer_comp_pricing">Our Pricing</a></li>
+                        <li><a href="blog.html" data-i18n="footer_comp_news">Latest News</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="footer__links">
-                <h4 data-i18n="footer_company">Company</h4>
-                <ul>
-                    <li><a href="index.html" data-i18n="nav_home">Home</a></li>
-                    <li><a href="about-us.html" data-i18n="nav_about">About</a></li>
-                    <li><a href="strategy.html" data-i18n="nav_strategy">Strategy</a></li>
-                    <li><a href="contact-us.html" data-i18n="footer_serv_contact">Contact Us</a></li>
-                </ul>
+            <div class="footer__bottom">
+                <p data-i18n="footer_copyright">Copyright Veiltail @ 2025 | Powered by : Veiltail Media</p>
             </div>
-        </div>
-        <div class="footer__copyright">
-            <p data-i18n="footer_copyright">Copyright Veiltail @ 2025 | Powered by : Veiltail Media</p>
         </div>
     </footer>
 

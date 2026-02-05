@@ -74,7 +74,6 @@
     "footer_comp_news": "Latest News",
     "footer_copyright": "Copyright Veiltail @ 2025 | Powered by : Veiltail Media",
     "lang_toggle": "العربية",
-    "nav_strategy": "Strategy",
     "strat_hero_title": "Strategic Analysis & Corporate Intelligence",
     "strat_hero_subtitle": "FORENSIC PROFILE",
     "strat_intro_title": "Executive Strategic Overview",
@@ -156,5 +155,9 @@
     "testimonial_3_text": "A different and unique experience. We wish you all the success. Thank you Veiltail Media team.",
     "testimonial_4_name": "El Saad Mall",
     "testimonial_4_role": "Client",
-    "testimonial_4_text": "We wish you reconciliation and success just as you led us to it with all simplicity.. We strongly recommend Veiltail Media. Thank you."
+    "testimonial_4_text": "We wish you reconciliation and success just as you led us to it with all simplicity.. We strongly recommend Veiltail Media. Thank you.",
+    "form_name": "Your Name",
+    "form_email": "Your Email",
+    "form_message": "Your Message",
+    "btn_send": "Send Message"
 }
